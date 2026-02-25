@@ -6,7 +6,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const PRIVYR_WEBHOOK = "https://hooks.privyr.com/YOUR_REAL_WEBHOOK";
+    const PRIVYR_WEBHOOK = "https://www.privyr.com/api/v1/incoming-leads/0vZfjMQw/EiSI5Icf#generic-webhook";
     // 🔥 Replace with your actual Privyr webhook URL
 
     const THANK_YOU_PAGE = "/thankyou.html"; 
