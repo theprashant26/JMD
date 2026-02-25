@@ -1520,7 +1520,7 @@ body {
 /* ===== PROJECT INFO SECTION ===== */
 
 .project-info-section {
-  background: #7a861f; /* olive background like screenshot */
+  background: #f6fad9; /* olive background like screenshot */
 }
 
 .info-card {
@@ -1574,19 +1574,19 @@ body {
 
 /* Card Colors */
 .card-blue {
-  background: #1e4563;
+  background: #414a1d;
 }
 
 .card-orange {
-  background: #ea5233;
+  background: #959b53;
 }
 
 .card-green {
-  background: #48a79e;
+  background: #acbe24;
 }
 
 .card-pink {
-  background: #a6004c;
+  background: #838f1c;
 }
 
 /* Responsive */
