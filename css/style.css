@@ -1595,3 +1595,46 @@ body {
     text-align: center;
   }
 }
+
+/* ===== Amenities Layout ===== */
+
+.amenities-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.amenity-box {
+    width: 14.2857%; /* 100 / 7 */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.amenity-icon {
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.amenity-icon img {
+    max-width: 60%;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .amenity-box {
+        width: 33.33%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .amenity-box {
+        width: 50%;
+    }
+}
